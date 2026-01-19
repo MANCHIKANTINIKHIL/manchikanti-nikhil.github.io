@@ -365,5 +365,96 @@ a:hover {
 html {
   scroll-padding-top: 90px;
 }
+/* ======================
+   MOBILE RESPONSIVE FIX
+   ====================== */
+   @media (max-width: 768px) {
 
+    /* NAVBAR */
+    .nav-container {
+      flex-direction: column;
+      gap: 12px;
+      padding: 14px 6%;
+    }
+  
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+  
+    nav a {
+      margin: 0;
+      font-size: 14px;
+    }
+  
+    .btn-nav {
+      padding: 8px 14px;
+      font-size: 14px;
+    }
+  
+    /* HERO */
+    .hero {
+      padding-top: 100px;
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .hero p {
+      font-size: 15px;
+      line-height: 1.6;
+      padding: 0 6px;
+    }
+  
+    .pill {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  
+    /* BUTTONS */
+    .btn-primary {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .cta-group {
+      flex-direction: column;
+    }
+  
+    .icon-btn {
+      width: 40px;
+      height: 40px;
+    }
+  
+    /* EXPERTISE CARD */
+    .expertise-card {
+      margin-top: 30px;
+      padding: 26px;
+    }
+  
+    /* SECTIONS */
+    .section {
+      padding: 40px 6%;
+    }
+  
+    /* PROJECTS */
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    /* CONTACT */
+    .contact-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+  
 }
